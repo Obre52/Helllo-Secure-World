@@ -6,7 +6,7 @@ export default [
   {
     // Pure logic modules — Node/test environment (no DOM)
     files: ['src/app.js', 'src/pipeline.js', 'src/controls.js', 'src/challenges.js',
-            'src/scoring.js', 'src/lab-engine.js', 'src/labs.js'],
+            'src/scoring.js', 'src/lab-engine.js', 'src/labs.js', 'src/demo-insecure.js'],
     languageOptions: {
       globals: {
         ...globals.browser,   // crypto, btoa, TextEncoder, etc.
