@@ -124,7 +124,7 @@ jobs:
           echo "actor=${{ github.actor }}" >> $GITHUB_OUTPUT
 
       - name: Publicar comentario en el PR
-        uses: actions/github-script@v7
+        uses: actions/github-script@v9
         with:
           script: |
             const hasSca  = '${{ steps.detect.outputs.has_sca }}'  === 'true';
